@@ -23,6 +23,8 @@
 		21C7909C252F2D3500F8C08B /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C7909B252F2D3500F8C08B /* QuickNewTask.swift */; };
 		21C7909E252F300D00F8C08B /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C7909D252F300D00F8C08B /* TodoList.swift */; };
 		21C790A0252F37FB00F8C08B /* TodoDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C7909F252F37FB00F8C08B /* TodoDetailRow.swift */; };
+		21C790A22530A06800F8C08B /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C790A12530A06800F8C08B /* NewTask.swift */; };
+		21C790A42530A47100F8C08B /* Binding+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C790A32530A47100F8C08B /* Binding+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		21C7909B252F2D3500F8C08B /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
 		21C7909D252F300D00F8C08B /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		21C7909F252F37FB00F8C08B /* TodoDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailRow.swift; sourceTree = "<group>"; };
+		21C790A12530A06800F8C08B /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		21C790A32530A47100F8C08B /* Binding+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 				21C7909B252F2D3500F8C08B /* QuickNewTask.swift */,
 				21C7909D252F300D00F8C08B /* TodoList.swift */,
 				21C7909F252F37FB00F8C08B /* TodoDetailRow.swift */,
+				21C790A12530A06800F8C08B /* NewTask.swift */,
 				21C79080252EDED200F8C08B /* Assets.xcassets */,
 				21C79085252EDED200F8C08B /* LaunchScreen.storyboard */,
 				21C79088252EDED200F8C08B /* Info.plist */,
@@ -109,6 +114,7 @@
 			children = (
 				21C79093252EEA1900F8C08B /* Color+Extension.swift */,
 				21C79097252EF2FE00F8C08B /* TodoEntity+Extention.swift */,
+				21C790A32530A47100F8C08B /* Binding+Extention.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -191,8 +197,10 @@
 				21C79094252EEA1900F8C08B /* Color+Extension.swift in Sources */,
 				21C7907D252EDED100F8C08B /* Todo.xcdatamodeld in Sources */,
 				21C7909A252EF35900F8C08B /* CategoryView.swift in Sources */,
+				21C790A42530A47100F8C08B /* Binding+Extention.swift in Sources */,
 				21C79096252EEA9300F8C08B /* UserView.swift in Sources */,
 				21C79091252EE1DD00F8C08B /* CheckBox.swift in Sources */,
+				21C790A22530A06800F8C08B /* NewTask.swift in Sources */,
 				21C7907F252EDED100F8C08B /* ContentView.swift in Sources */,
 				21C790A0252F37FB00F8C08B /* TodoDetailRow.swift in Sources */,
 				21C7908F252EDEF300F8C08B /* CategoryImage.swift in Sources */,

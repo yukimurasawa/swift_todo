@@ -12,8 +12,10 @@ struct QuickNewTask: View {
     var category: TodoEntity.Category
     
     @State var newTask: String = ""
+    @Environment(\.managedObjectContext) var viewContext
     
     fileprivate func addNewTask() {
+        TodoEntity.create(in: self.viewContext, category: self.category, task: self.newTask)
         self.newTask = ""
     }
     
@@ -42,7 +44,8 @@ struct QuickNewTask: View {
 }
 
 struct QuickNewTask_Previews: PreviewProvider {
+    static let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     static var previews: some View {
-        QuickNewTask(category: .ImpNUrg_2nd)
+        QuickNewTask(category: .ImpNUrg_2nd).environment(\.managedObjectContext, context)
     }
 }
